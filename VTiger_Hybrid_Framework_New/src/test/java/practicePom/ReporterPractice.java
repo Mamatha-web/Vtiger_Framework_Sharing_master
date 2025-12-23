@@ -68,4 +68,5 @@ public class ReporterPractice {
 		Reporter.log(mtd.getName()+"end");
 		
 	}
+	
 }
