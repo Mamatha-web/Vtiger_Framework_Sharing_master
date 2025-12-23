@@ -40,4 +40,14 @@ public class ReporterPractice {
 	}
 	
 
+	@Test
+	public void signOut(Method mtd) {
+		Reporter.log(mtd.getName()+"Started");
+		Reporter.log("step-1");
+		Reporter.log("step-2");
+		Reporter.log("step-3");
+		Reporter.log("step-4");
+		Reporter.log(mtd.getName()+"end");
+		
+	}
 }
