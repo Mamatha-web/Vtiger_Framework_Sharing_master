@@ -20,4 +20,12 @@ public class Practice_TestNG1 extends PracticeBaseClass{
 	public void createOrg() {
 		System.out.println("created organisation");
 	}
+	
+	@Test
+	public void ContactWithOrg() {
+		System.out.println("created ContactWithOrg");
+	}
+	
+	
+	
 }
